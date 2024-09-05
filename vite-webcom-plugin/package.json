@@ -1,12 +1,13 @@
 {
   "name": "vite-webcom-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple web component creator",
   "main": "vite-webcom-plugin.js",
   "module": "vite-webcom-plugin.es.js",
   "type": "module",
+  "repository": "https://github.com/boois/vite-webcom-plugin/tree/master",
   "author": "booisming@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "vite": "latest"
   }

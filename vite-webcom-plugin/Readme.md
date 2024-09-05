@@ -1,5 +1,8 @@
 # WebComponent Creator 
 
+[查看源代码](https://github.com/boois/vite-webcom-plugin/tree/master)
+
+
 1. 安装 install
 ```
 npm install vite-webcom-plugin --save-dev
