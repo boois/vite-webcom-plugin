@@ -1,0 +1,16 @@
+# Node.js 依赖
+node_modules/
+# 构建输出
+dist/
+# 日志文件
+*.log
+# 环境变量
+*.env
+# 覆盖报告
+coverage/
+# 构建目录
+build/
+# 临时文件
+*.tmp
+# 其他临时文件
+*.temp

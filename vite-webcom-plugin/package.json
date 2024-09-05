@@ -1,0 +1,13 @@
+{
+  "name": "vite-webcom-plugin",
+  "version": "1.0.0",
+  "description": "a simple web component creator",
+  "main": "vite-webcom-plugin.js",
+  "module": "vite-webcom-plugin.es.js",
+  "type": "module",
+  "author": "booisming@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "latest"
+  }
+}
