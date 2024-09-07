@@ -132,7 +132,7 @@ export default function webcomPlugin(directory="src/webcoms") {
                     code = code.replace(
                         /class\s+(\w+)\s+\{|class\s+(\w+)\s+extends\s+HTMLElement\s+\{/gi,
 `class $1$2 extends HTMLElement { 
-   constructor(){
+   constructor(...args){
         super();
         this._name = "${pathArr[2]}";
         this.innerHTML = \`${htmlContent.replace(/\$root./gi, "this.getRootNode().host.")}\`;
@@ -148,7 +148,7 @@ export default function webcomPlugin(directory="src/webcoms") {
         Array.from(this.childNodes).forEach(child => {
             this.shadow.appendChild(child);
         });
-        this._constructor_();
+        this._constructor_(...args);
   }
 `
                     );
